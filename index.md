@@ -66,7 +66,7 @@ eventbrite:           # optional: clave alfanumérica de registro en Eventbrite,
   Explica quién es tu público. (En particular, cuenta a los lectores si el taller esta abierto sólo a personas de una institución o grupo en particular).
   {% endcomment %}
 {% if page.carpentry == "swc" %}
-  {% include sc/who.html %}
+  {Este taller está dirigido a cualquier persona con interés o necesidad de aplicar un sistema de control de versiones en su trabajo o estudio. No es necesario ningún conocimiento previo sobre Git, ya que los herramientas serán presentadas en el taller. Es recomendable, aunque no estrictamente necesario, que los participantes estén familiarizados con el uso de la Terminal.}
 {% elsif page.carpentry == "dc" %}
   {% include dc/who.html %}
 {% elsif page.carpentry == "lc" %}
@@ -130,10 +130,6 @@ También es requerido que respeten el
 <p id="accessibility">
   <strong>Accesibilidad:</strong> Estamos comprometidas a hacer que este taller sea accesible para todas. Las organizadoras comprobaron que: 
 </p>
-<ul>
-  <li>El salón es accesible para silla de ruedas o similar</li>
-  <li>Baños accesibles a disposición</li>
-</ul>
 <p>
   Los materiales se entregarán antes del taller, también se encuentra disponible material impreso si se pide a los organizadores con anticipación. Si podemos ayudar a facilitar el aprendizaje (por ejemplo, con intérpretes de lenguaje de señas, o instalaciones para lactancia) por favor contáctanos (utilizando los detalles de contacto listados debajo) e intentaremos proveerlos.
 </p>
