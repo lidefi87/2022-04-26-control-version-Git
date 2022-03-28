@@ -1,17 +1,19 @@
 ---
 layout: workshop      # NO CAMBIAR ESTO 
 carpentry: "swc"    # qué tipo de Carpentry (ya sea "lc", "dc" o "swc")
-venue: "En línea - FLISoL Loja 2022"        # nombre breve del espacio donde se lleva adelante el taller, sin dirección (por ejemplo, "Universidad de Buenos Aires")
+venue: "FLISoL Loja 2022 - En línea"        # nombre breve del espacio donde se lleva adelante el taller, sin dirección (por ejemplo, "Universidad de Buenos Aires")
 address: null      # dirección completa del espacio donde se realizará el taller (por ejemplo, "Aula 3, Av. Córdoba 1234, Buenos Aires, Argentina")
 country: "Ecuador"      # código ISO del país, dos letras en minúscula como por ejemplo "fr" (ver https://en.wikipedia.org/wiki/ISO_3166-1)
 language: "Español"     # código ISO del idioma, dos letras en minúscula como por ejemplo "fr" (ver https://en.wikipedia.org/wiki/ISO_639-1)
 latlng: null       # latitud y longitud del espacio en formato decimal (por ejemplo, "41.7901128,-87.6007318" - usar http://www.latlong.net/)
-humandate: "Abr 27, 2022"    # fechas del taller en formato legible (por ejemplo, "Feb 17-18, 2020")
+humandate: "abril 27, 2022"    # fechas del taller en formato legible (por ejemplo, "Feb 17-18, 2020")
 humantime: "6:00 pm - 8:30 pm"    # hora del taller en formato legible (por ejemplo, "9:00 am - 4:30 pm")
 startdate: 2022-04-27      # fecha de inicio del taller en formato YYYY-MM-DD (por ejemplo, 2015-01-01)
 enddate: 2022-04-27        # fecha de finalización del taller en formato YYYY-MM-DD, por ejemplo 2015-01-02
 instructor: ["Denisse Fierro Arcos", "Linda Cabrera Orellana"] # lista de nombres de las instructoras separados por comas y entre corchetes, como ["Hedy Lamarr", "Ada Lovelace", "Madame Curie"]
+{% comment %}
 helper: [null]     # lista de nombres de las **helpers** separados por comas y entre corchetes, como ["Carrie Fisher", "Frances Allen", "Margaret Hamilton"]
+{% endcomment %}
 email: ["galapagos@rladies.org"]    # lista de direcciones de correo electrónico de contacto con la **host** ó **lead instructor**, separadas por comas y entre corchetes, como ["ada.lovelace@ejemplo.org", "carrie.fisher@ejemplo.org", "hedy.lamarr@example.org"]
 collaborative_notes:             # optional: URL de las notas colaborativas del taller, por ejemplo un Etherpad o documento de Google Docs 
 eventbrite:           # optional: clave alfanumérica de registro en Eventbrite, por ejemplo "1234567890AB" (si se está utilizando Eventbrite)
@@ -66,7 +68,7 @@ eventbrite:           # optional: clave alfanumérica de registro en Eventbrite,
   Explica quién es tu público. (En particular, cuenta a los lectores si el taller esta abierto sólo a personas de una institución o grupo en particular).
   {% endcomment %}
 {% if page.carpentry == "swc" %}
-  {Este taller está dirigido a cualquier persona con interés o necesidad de aplicar un sistema de control de versiones en su trabajo o estudio. No es necesario ningún conocimiento previo sobre Git, ya que los herramientas serán presentadas en el taller. Es recomendable, aunque no estrictamente necesario, que los participantes estén familiarizados con el uso de la Terminal.}
+  <strong>Quién: </strong> Este taller está dirigido a cualquier persona con interés o necesidad de aplicar un sistema de control de versiones en su trabajo o estudio. No es necesario ningún conocimiento previo sobre Git, ya que los herramientas serán presentadas en el taller. Es recomendable, aunque no estrictamente necesario, que los participantes estén familiarizados con el uso de la Terminal.
 {% elsif page.carpentry == "dc" %}
   {% include dc/who.html %}
 {% elsif page.carpentry == "lc" %}
