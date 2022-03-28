@@ -113,7 +113,7 @@ eventbrite:           # optional: clave alfanumérica de registro en Eventbrite,
   Modifica este bloque si hay algún requerimiento especial.
 {% endcomment %}
 <p id="requirements">
-  <strong>Requerimientos:</strong> Las asistentes deben tener acceso a una computadora con sistema operativo Mac, Linux o Windows (no tablets, Chromebooks, etc.), que tenga permisos de administrador habilitados. Deberán tener algunos paquetes de software instalados, los cuales están listados <a href="#setup">aquí</a>. 
+  <strong>Requerimientos:</strong> Las asistentes deberán tener acceso a una computadora con sistema operativo Mac, Linux o Windows (no tablets, Chromebooks, etc.), que tenga permisos de administrador habilitados. Deberán tener algunos paquetes de software instalados, los cuales están listados <a href="#setup">aquí</a>. 
 	
 Las personas registradas en este taller deberán respetar el <a href="{{site.swc_site}}/conduct.html">Código de Conducta</a> de 
   {% if page.carpentry == "swc" %}
@@ -179,7 +179,7 @@ Las personas registradas en este taller deberán respetar el <a href="{{site.swc
 <p><em>Encuestas</em></p>
 {% if page.carpentry == "swc" %}
 <p>Por favor, asegúrate de completar estas encuestas antes y después del taller. De esta manera nos ayudarás a 
-	mejorar o mantener un estándar de enseñanza alto.</p>
+	mejorar y mantener un estándar de enseñanza alto.</p>
 <p><a href="{{ site.swc_pre_survey }}{{ site.github.project_title }}">Encuesta pre-taller</a></p>
 <p><a href="{{ site.swc_post_survey }}{{ site.github.project_title }}">Encuesta post-taller</a></p>
 
@@ -265,8 +265,7 @@ Las personas registradas en este taller deberán respetar el <a href="{{site.swc
   Data Carpentry
   {% elsif page.carpentry == "lc" %}
   Library Carpentry
-  {% endif %}
-  ,
+  {% endif %},
   necesitarás acceso a algunos de los programas descritos abajo.
   Además, necesitarás la versión más reciente de un navegador web como Google Chrome, Mozilla Firefox, o Safari.
 </p>
@@ -279,7 +278,7 @@ Las personas registradas en este taller deberán respetar el <a href="{{site.swc
   <h3>La terminal Bash</h3>
 
   <p>
-    Bash es una de las terminales más frecuentemente utilizadas, que te permite realizar tareas simples de forma rápida.
+    Bash es una de las terminales más frecuentemente utilizadas que te permite realizar tareas simples de forma rápida.
   </p>
 
   <div class="row">
@@ -363,7 +362,7 @@ Las personas registradas en este taller deberán respetar el <a href="{{site.swc
   <p>
     Git es un sistema de versión de control que permite hacer un seguimiento de
     quién hizo qué cambios, dónde y cuándo. Git tiene la opción de actualizar fácilmente
-    una versión publica o compartida de tu código a través de plataformas como <a href="https://github.com/">github.com</a>.
+    una versión pública o compartida de tu código a través de plataformas como <a href="https://github.com/">github.com</a>.
     Vas a necesitar un navegador web
     <a href="https://help.github.com/articles/supported-browsers/">soportado</a>
     por GitHub (actualmente incluyen Chrome, Firefox, Safari, o Internet Explorer 9 o su versión más reciente).
@@ -421,8 +420,8 @@ Las personas registradas en este taller deberán respetar el <a href="{{site.swc
     código, uso de colores para resaltar palabras clave, etc. El editor de texto predeterminado en macOS y
     Linux es usualmente Vim, el cual no es famoso por ser
     intuitivo. Si accidentalmente te encuentras atascado en él, intenta
-    escribiendo la clave de escape (ESC), seguido de <code>:q!</code> (es decir: dos puntos, la letra 'q' minúscula,
-    y signo de exclamación), luego presionando Volver para regresar al intérprete de comandos.
+    pulsar la tecla de escape (ESC), seguido de <code>:q!</code> (es decir: dos puntos, la letra 'q' minúscula,
+    y signo de exclamación), luego presionando Enter para regresar al intérprete de comandos.
 </p>
 
   <div class="row">
@@ -477,7 +476,7 @@ Las personas registradas en este taller deberán respetar el <a href="{{site.swc
       <p>
 	Otros editores que puedes usar son
         <a href="https://wiki.gnome.org/Apps/Gedit">Gedit</a>,
-        <a href="http://kate-editor.org/">Kate</a> or
+        <a href="http://kate-editor.org/">Kate</a> o
         <a href="http://www.sublimetext.com/">Sublime Text</a>.
 	Recuerda que el edito de texto debe estar preinstalado en tu computador antes de iniciar el taller. 
       </p>
