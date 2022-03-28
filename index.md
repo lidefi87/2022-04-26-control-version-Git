@@ -235,7 +235,7 @@ Las personas registradas en este taller deberán respetar el <a href="{{site.swc
   por favor observa la previsualización del sitio antes de comitear, y asegúrate
   de ejecutar también 'tools/check'.
 {% endcomment %}
-<h2 id="syllabus">Currícula</h2>
+<h2 id="syllabus"><a href="https://swcarpentry.github.io/git-novice-es/">Currícula</a></h2>
 
 {% if page.carpentry == "swc" %}
   {% include sc/syllabus.html %}
@@ -370,8 +370,8 @@ Las personas registradas en este taller deberán respetar el <a href="{{site.swc
   <p>
     También necesitarás una cuenta en <a href="https://github.com/">github.com</a>
     para alguna partes de la lección de Git. Las cuentas básicas en GitHub son gratuitas.
-    Te incentivamos a crear una cuenta en GitHub si todavia no tienes una.
-    Por favor considera qué información persional te gustaría hacer pública.
+    Te incentivamos a crear una cuenta en GitHub si todavía no tienes una.
+    Por favor considera qué información personal te gustaría hacer pública.
     Puedes revisar este sitio web con 
     <a href="https://help.github.com/articles/keeping-your-email-address-private/">instrucciones
     sobre cómo mantener tu dirección de email privada</a>.
