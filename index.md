@@ -262,10 +262,10 @@ También es requerido que respeten el
   {% endif %}
   ,
   necesitarás acceso a algunos de los programas descritos abajo.
-  Además, necesitarás un navegador actualizado.
+  Además, necesitarás la versión más reciente de un navegador web como Google Chrome, Mozilla Firefox, o Safari.
 </p>
 <p>
-  Mantenemos una lista de problemas comunes que ocurren durante la instalación como referencia para los instructores que pueden ser útiles en la 
+  Puedes encontrar una lista de problemas comunes (en inglés) que ocurren durante la instalación como referencia que pueden ser útiles para encontrar una solución: 
   <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
 </p>
 
@@ -356,28 +356,28 @@ También es requerido que respeten el
 
   <p>
     Git es un sistema de versión de control que permite hacer un seguimiento de
-    quien hiso que cambios, donde y cuando, tiene la opción de actualizar fácilmente
-    una versión publica o compartida de tu codigo en <a href="https://github.com/">github.com</a>.
-    Vas a neesitar un navegador web
+    quién hizo qué cambios, dónde y cuándo. Git tiene la opción de actualizar fácilmente
+    una versión publica o compartida de tu código a través de plataformas como <a href="https://github.com/">github.com</a>.
+    Vas a necesitar un navegador web
     <a href="https://help.github.com/articles/supported-browsers/">soportado</a>
-    (actualmente Chrome, Firefox, Safari, o Internet Explorer 9 para arriba)
+    por GitHub (actualmente incluyen Chrome, Firefox, Safari, o Internet Explorer 9 o su versión más reciente).
   </p>
   <p>
-    Vas a necesitar una cuenta en <a href="https://github.com/">github.com</a>
-    para alguna partes de la lección de Git. Las cuentas basicas en GitHub son gratuitas.
-    Te incentivamos a crear una cuenta en GitHub si todavia no tenes una.
-    Por favor considera que información persional te gustaria hacer publica.
-    Por  ejemplo, por ahi te gustaria revisar algunas de estas
+    También necesitarás una cuenta en <a href="https://github.com/">github.com</a>
+    para alguna partes de la lección de Git. Las cuentas básicas en GitHub son gratuitas.
+    Te incentivamos a crear una cuenta en GitHub si todavia no tienes una.
+    Por favor considera qué información persional te gustaría hacer pública.
+    Puedes revisar este sitio web con 
     <a href="https://help.github.com/articles/keeping-your-email-address-private/">instrucciones
-    para mantener tu dirección de email privada</a> escrita por GitHub.
+    sobre cómo mantener tu dirección de email privada</a>.
   </p>
 
   <div class="row">
     <div class="col-md-4">
       <h4 id="git-windows">Windows</h4>
       <p>
-        Git deberia estar instalado en tu computadora como parte
-        de tu instalacion de Bash (escrito mas abajo).
+        Git debería estar instalado en tu computadora como parte
+        de tu instalacion de Bash (mira la sección anterior sobre cómo instalar Bash).
       </p>
     </div>
     <div class="col-md-4">
@@ -385,19 +385,19 @@ También es requerido que respeten el
       <a href="https://www.youtube.com/watch?v=9LQhwETCdwY ">Video Tutorial</a>
       <p>
         <strong>Para OS X 10.9 y superiores</strong>, instala Git para Mac
-        ejecutando el instalador mas reciente de "mavericks", podes descargarlo
-        <a href="http://sourceforge.net/projects/git-osx-installer/files/">de esta lista</a>.
-        Después de instalar Git, no vas a ver nada en tu carpeta <code>/Applications</code> por que
-        Git es un programa de linea de comando.
-        <strong>Para versiónes mas antiguas de OS X (10.5-10.8)</strong>
+        ejecutando el instalador más reciente de "Mavericks", puedes descargarlo
+        <a href="http://sourceforge.net/projects/git-osx-installer/files/">desde aquí</a>.
+        Después de instalar Git, no vas a ver nada en tu carpeta <code>/Applications</code> porque
+        Git es un programa de línea de comando.
+        <strong>Para versiones más antiguas de OS X (10.5-10.8)</strong>
         Usa el instalador <a href="http://sourceforge.net/projects/git-osx-installer/files/"> disponible </a>
-        mas reciente de "snow-leopard".
+        más reciente para "Snow-leopard".
       </p>
     </div>
     <div class="col-md-4">
       <h4 id="git-linux">Linux</h4>
       <p>
-        Si Git no esta ya en tu maquina podes tratar de instalarlo a través
+        Si Git no está aún instalado en tu máquina, puedes tratar de instalarlo a través
         de los repositorios de tu distribución. Para Debian/Ubuntu ejecuta
         <code>sudo apt-get install git</code> y para Fedora
         <code>sudo dnf install git</code>
@@ -407,20 +407,16 @@ También es requerido que respeten el
 </div> {% comment %} End of 'Git' section. {% endcomment %}
 
 <div id="editor"> {% comment %} Start of 'editor' section. {% endcomment %}
-  <h3>Text Editor</h3>
+  <h3>Editor de Texto</h3>
 
   <p>
-	Si accidentalmente encuentras dificultades, prueba typing la tecla  
-escape, seguido por <code>:q!</code>(colon, olon, lower-case 'q',
-    exclamation mark),
-	...
-	Cuando estás escribiendo código, es bueno tener un editor de texto que sea
-    optimizado para escribir código, con características como automático
-    código de color de las palabras clave. El editor de texto predeterminado en macOS y
-    Linux usualmente se establece en Vim, que no es famoso por ser
+	Cuando estés escribiendo código, es bueno tener un editor de texto que esté
+    optimizado para escribir código, con características como predicción automática de
+    código, uso de colores para resaltar palabras clave, etc. El editor de texto predeterminado en macOS y
+    Linux es usualmente Vim, el cual no es famoso por ser
     intuitivo. Si accidentalmente te encuentras atascado en él, intenta
-    escribiendo la clave de escape, seguido de <code>: q! </code> (dos puntos, minúscula 'q',
-    signo de exclamación), luego presionando Volver para regresar al intérprete de comandos.
+    escribiendo la clave de escape (ESC), seguido de <code>:q!</code> (es decir: dos puntos, la letra 'q' minúscula,
+    y signo de exclamación), luego presionando Volver para regresar al intérprete de comandos.
 </p>
 
   <div class="row">
@@ -428,9 +424,9 @@ escape, seguido por <code>:q!</code>(colon, olon, lower-case 'q',
       <h4 id="editor-windows">Windows</h4>
       <a href="https://www.youtube.com/watch?v=339AEqk9c-8">Video Tutorial</a>
       <p>
-	nano es un editor básico y el predeterminado que usan los instructores en el taller.
+	Nano es un editor básico y el predeterminado que usan los instructores en el taller.
 	Para instalarlo,
-	Descargas el<a href="{{site.swc_installer}}">
+	descarga el<a href="{{site.swc_installer}}">
           {% if page.carpentry == "swc" %}
           Software Carpentry
           {% elsif page.carpentry == "dc" %}
@@ -438,148 +434,58 @@ escape, seguido por <code>:q!</code>(colon, olon, lower-case 'q',
           {% elsif page.carpentry == "lc" %}
           Libreria Carpentry
           {% endif %}
-          Instalador de Windowns
+          Instalador de Windows
 	</a>
-	 y doble click en el archivo para correrlo.
+	 y haz doble click en el archivo para iniciar la instalación.
         <strong>Esta instalación requiere una conexión a Internet.</strong>
       </p>
       <p>
         Otros editores que puedes usar son
-        <a href="http://notepad-plus-plus.org/">Notepad++</a> or
+        <a href="http://notepad-plus-plus.org/">Notepad++</a> o
         <a href="http://www.sublimetext.com/">Sublime Text</a>.
         <strong>
 	Ten en cuenta que debes
         agregar tu directorio de instalación a la ruta del sistema. </strong>
-        Por favor, Pídele a tu instructor que te ayude a hacer esto.
+        Si tienes dificultades, pídele a tu instructor que te ayude a hacer esto.
 	</p>
     </div>
     <div class="col-md-4">
       <h4 id="editor-macosx">macOS</h4>
       <p>
-	nano es un editor básico y el predeterminado que usan los instructores en el taller.
-        Mira la instalacion de Git <a href="https://www.youtube.com/watch?v=9LQhwETCdwY ">video tutorial</a>
-       	Para un ejemplo sobre como abrir nano.
-        Debe estar preinstalado.
+	Nano es un editor básico y el predeterminado que usan los instructores en el taller.
+        Mira este <a href="https://www.youtube.com/watch?v=9LQhwETCdwY ">vídeo tutorial</a>
+       	sobre la instalación de Git y Nano.
+	Recuerda que el edito de texto debe estar preinstalado en tu computador antes de iniciar el taller. 
 	</p>
       <p>
 	Otros editores que puedes usar son
-        <a href="http://www.barebones.com/products/textwrangler/">Text Wrangler</a> or
+        <a href="http://www.barebones.com/products/textwrangler/">Text Wrangler</a> o
         <a href="http://www.sublimetext.com/">Sublime Text</a>.
       </p>
     </div>
     <div class="col-md-4">
       <h4 id="editor-linux">Linux</h4>
       <p>
-	nano es un editor básico y el predeterminado que usan los instructores en el taller. 
-	Para instalarlo,
+	Nano es un editor básico y el predeterminado que usan los instructores en el taller.
       </p>
       <p>
 	Otros editores que puedes usar son
         <a href="https://wiki.gnome.org/Apps/Gedit">Gedit</a>,
         <a href="http://kate-editor.org/">Kate</a> or
         <a href="http://www.sublimetext.com/">Sublime Text</a>.
+	Recuerda que el edito de texto debe estar preinstalado en tu computador antes de iniciar el taller. 
       </p>
     </div>
   </div>
 </div> {% comment %} End of 'editor' section. {% endcomment %}
-
-<div id="python"> {% comment %} Comienzo de la sección de 'Python'. Eliminar el tercer párrafo si el taller enseñará Python usando algo diferente a **Jupyter notebook**.
-           Detalles en https://jupyter-notebook.readthedocs.io/en/stable/notebook.html#browser-compatibility (en inglés){% endcomment %}
-  <h3>Python</h3>
-
-  <p>
-    <a href="http://python.org">Python</a> es un lenguaje popular para
-    investigación, y excelente para programación de propósito general.
-    Instalar todos sus paquetes de investigación individualmente puede ser
-    un poco difícil, así que recomendamos
-    <a href="https://www.anaconda.com/distribution/">Anaconda</a>,
-    un instalador "todo en uno".
-  </p>
-
-    <p>
-      Independientemente de cómo elijas instalarlo,
-      <strong>por favor asegúrate de instalar alguna de las versiones de Python 3</strong>
-      (por ejemplo, 3.6).
-    </p>
-
-    <p>
-      Enseñaremos Python usando <a href="https://jupyter.org/">Jupyter notebook</a>,
-      un ambiente de programación que se ejecuta en un navegador web. Para que funcione necesitarás un
-      navegador razonablemente actualizado.
-      Las versiones actuales de los navegadores Chrome, Safari y Firefox están todas
-      <a href="https://jupyter-notebook.readthedocs.io/en/stable/notebook.html#browser-compatibility">soportadas</a>
-      (no están soportados algunos navegadores antiguos, incluyendo Internet Explorer versión 9 y
-      anteriores).
-    </p>
-
-  <div class="row">
-    <div class="col-md-4">
-      <h4 id="python-windows">Windows</h4>
-      <a href="https://www.youtube.com/watch?v=xxQ0mzZ8UvA">Video Tutorial</a>
-      <ol>
-        <li>Ingresa a <a href="https://www.anaconda.com/download/#windows">https://www.anaconda.com/download/#windows</a> con tu navegador web.</li>
-        <li>Descarga el instalador de Python 3 para Windows</li>
-        <li>Instala Python 3 usando todas las opciones por defecto, salvo la que dice <strong>Hacer Anaconda la instalación por defecto de Python</strong>, <em>asegúrate de tildarla</em></li>
-      </ol>
-    </div>
-    <div class="col-md-4">
-      <h4 id="python-macosx">macOS</h4>
-      <a href="https://www.youtube.com/watch?v=TcSAln46u9U">Video Tutorial</a>
-      <ol>
-        <li>Ingresa a <a href="https://www.anaconda.com/download/#macos">https://www.anaconda.com/download/#macos</a> con tu navegador web.</li>
-        <li>Descarga el instalador de Python 3 para OS X.</li>
-        <li>Instala Python 3 usando todas las opciones por defecto.</li>
-      </ol>
-    </div>
-    <div class="col-md-4">
-      <h4 id="python-linux">Linux</h4>
-      <ol>
-        <li>Ingresa a <a href="https://www.anaconda.com/download/#linux">https://www.anaconda.com/download/#linux</a> con tu navegador web.</li>
-        <li>Descarga el instalador de Python 3 para Linux.<br>
-          (La instalación requiere el uso de la terminal. Si no te sientes cómoda
-          haciendo la  instalación por tu cuenta, detente aquí y pide ayuda en el taller)
-        </li>
-        <li>
-          Abre una terminal.
-        </li>
-        <li>
-          Escribe <pre>bash Anaconda3-</pre> presiona tab.
-          El nombre del archivo que acabas de descargar debería aparecer
-          Si no lo hace, muévete a la carpeta donde descargaste el archivo,
-          por ejemplo:
-          <pre>cd Downloads</pre>
-          Luego, intenta nuevamente.
-        </li>
-        <li>
-          Presiona Enter. Deberás seguir las instrucciones en la línea de comandos.
-          Para moverte por el texto, presiona la tecla de espacio. Escribe <code>yes</code> y
-          presiona enter para aceptar la licencia. Presiona enter para aceptar la
-          ruta por defecto de los archivos. Escribe <code>yes</code> y
-          presiona enter para agregar Anaconda detrás de tu <code>PATH</code>
-          (esto hace a la distribución de Anaconda el Python por defecto en nuestro sistema).
-        </li>
-        <li>
-          Cierra la terminal.
-        </li>
-      </ol>
-    </div>
-  </div>
-{% comment %}
-  <p>
-  Una vez que terminas de instalar los programas listados arriba,
-  por favor ve a <a href="setup/index.html">esta página</a>,
-  que tiene instrucciones sobre cómo testear que todo ha sido instalado correctamente.
-  </p>
-{% endcomment %}
-</div> {% comment %} Fin de la sección 'Python'. {% endcomment %}
 
 <div id="r"> {% comment %} Start of 'R' section. {% endcomment %}
   <h3>R</h3>
 
   <p>
     <a href="http://www.r-project.org">R</a> es un lenguaje de programación 
-    especialmente poderoso para exploración de datos, visualización y  
-    análisis estadístico. Para trabajar con R, usamos
+    especialmente poderoso para la exploración y visualización de datos, así como para  
+    análisis estadísticos. Para trabajar con R usamos el programa 
     <a href="http://www.rstudio.com/">RStudio</a>.
   </p>
 
@@ -589,17 +495,15 @@ escape, seguido por <code>:q!</code>(colon, olon, lower-case 'q',
       <a href="https://www.youtube.com/watch?v=q0PjTAylwoU">Video Tutorial en inglés </a>
       <p>
 
-
-
-        Instala R descargando e instalando
+        Después de descargar 
         <a href="http://cran.r-project.org/bin/windows/base/release.htm">este archivo .exe </a>
-        desde <a href="http://cran.r-project.org/index.html">CRAN</a>.
-        Además, instala el entorno de desarrollo integrado, en inglés Integrated Development Environment (IDE) 
+        desde <a href="http://cran.r-project.org/index.html">CRAN</a>, ábrelo e instala R.
+        Además, instala el entorno de desarrollo integrado (IDE por sus siglas en inglés, Integrated Development Environment) 
         <a href="http://www.rstudio.com/ide/download/desktop">RStudio</a>.
-        Ten en cuenta que si tienes cuentas separadas de usuario y administrador,
+        Ten en cuenta que si tienes cuentas separadas de usuario y administrador en tu computador,
 	debes correr los instaladores como administrador (haz click derecho en el 
-        archivo .exe y selecciona "Ejecutar como administrador" en lugar de hacer doble click)  
-        De lo contrario pueden ocurrir problemas, por ejemplo, cuando instales paquetes de R.
+        archivo .exe y selecciona "Ejecutar como administrador" en lugar de hacer doble click).  
+        De lo contrario pueden ocurrir problemas cuando instales paquetes en R.
 
 
       </p>
@@ -608,10 +512,10 @@ escape, seguido por <code>:q!</code>(colon, olon, lower-case 'q',
       <h4 id="r-macosx">macOS</h4>
       <a href="https://www.youtube.com/watch?v=5-ly3kyxwEg">Video Tutorial en inglés</a>
       <p>
-        Instala R descargando e instalando
+        Después de descargar 
         <a href="http://cran.r-project.org/bin/macosx/R-latest.pkg">este archivo .pkg </a>
-        desde <a href="http://cran.r-project.org/index.html">CRAN</a>.
-        Además, instala el entorno de desarrollo integrado, en inglés Integrated Development Environment (IDE) 
+        desde <a href="http://cran.r-project.org/index.html">CRAN</a>, ábrelo e instala R.
+        Además, instala el entorno de desarrollo integrado (IDE por sus siglas en inglés, Integrated Development Environment) 
         <a href="http://www.rstudio.com/ide/download/desktop">RStudio</a>.
       </p>
     </div>
@@ -619,11 +523,11 @@ escape, seguido por <code>:q!</code>(colon, olon, lower-case 'q',
       <h4 id="r-linux">Linux</h4>
       <p>
         Puedes descargar los archivos binarios para tu distribución
-        desde <a href="http://cran.r-project.org/index.html">CRAN</a>. O
+        desde <a href="http://cran.r-project.org/index.html">CRAN</a>. También
         puedes usar tu administrador de paquetes (por ejemplo: para Debian/Ubuntu
         corre <code>sudo apt-get install r-base</code> y para Fedora corre
-        <code>sudo dnf install R</code>).  Además, por favor instala el entorno de desarrollo integrado, 
-	en inglés Integrated Development Environment (IDE) 
+        <code>sudo dnf install R</code>).  Además, por favor instala el entorno de desarrollo integrado 
+	(IDE por sus siglas en inglés, Integrated Development Environment) 
         <a href="http://www.rstudio.com/ide/download/desktop">RStudio</a>.
       </p>
     </div>
