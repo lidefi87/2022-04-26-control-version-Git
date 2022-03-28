@@ -11,7 +11,7 @@ humantime: "6:00 pm - 9:00 pm"    # hora del taller en formato legible (por ejem
 startdate: 2022-04-27      # fecha de inicio del taller en formato YYYY-MM-DD (por ejemplo, 2015-01-01)
 enddate: 2022-04-27        # fecha de finalización del taller en formato YYYY-MM-DD, por ejemplo 2015-01-02
 instructor: ["Denisse Fierro Arcos", "Linda Cabrera Orellana"] # lista de nombres de las instructoras separados por comas y entre corchetes, como ["Hedy Lamarr", "Ada Lovelace", "Madame Curie"]
-email: ["galapagos@rladies.org"]    # lista de direcciones de correo electrónico de contacto con la **host** ó **lead instructor**, separadas por comas y entre corchetes, como ["ada.lovelace@ejemplo.org", "carrie.fisher@ejemplo.org", "hedy.lamarr@example.org"]
+email: ["galapagos@rladies.org", "guayaquil@rladies.org"]    # lista de direcciones de correo electrónico de contacto con la **host** ó **lead instructor**, separadas por comas y entre corchetes, como ["ada.lovelace@ejemplo.org", "carrie.fisher@ejemplo.org", "hedy.lamarr@example.org"]
 collaborative_notes:             # optional: URL de las notas colaborativas del taller, por ejemplo un Etherpad o documento de Google Docs 
 eventbrite:           # optional: clave alfanumérica de registro en Eventbrite, por ejemplo "1234567890AB" (si se está utilizando Eventbrite)
 ---
@@ -77,6 +77,9 @@ eventbrite:           # optional: clave alfanumérica de registro en Eventbrite,
 
   Este bloque muestra la dirección y enlaces a mapas con instrucciones para llegar, si la latitud y longitud fueron definidas. Puedes utilizar http://itouchmap.com/latlong.html para encontrar la lat/long de una dirección. 
 {% endcomment %}
+{% if page.carpentry == "swc" %}
+  <strong>Dónde: </strong> Este taller será en línea a través de la plataforma xxxxx.
+{% comment %}
 {% if page.latlng %}
 <p id="where">
   <strong>Dónde:</strong>
@@ -87,6 +90,7 @@ eventbrite:           # optional: clave alfanumérica de registro en Eventbrite,
   <a href="//maps.google.com/maps?q={{page.latlng}}">Google Maps</a>.
 </p>
 {% endif %}
+{% endcomment %}
 
 {% comment %}
   FECHA
