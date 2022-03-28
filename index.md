@@ -79,6 +79,8 @@ eventbrite:           # optional: clave alfanumérica de registro en Eventbrite,
 {% endcomment %}
 {% if page.carpentry == "swc" %}
   <strong>Dónde: </strong> Este taller será en línea a través de la plataforma xxxxx.
+{% endif %}
+
 {% comment %}
 {% if page.latlng %}
 <p id="where">
@@ -111,17 +113,16 @@ eventbrite:           # optional: clave alfanumérica de registro en Eventbrite,
   Modifica este bloque si hay algún requerimiento especial.
 {% endcomment %}
 <p id="requirements">
-  <strong>Requerimientos:</strong> Las asistentes deben traer una computadora portátil con sistema operativo Mac, Linux o Windows (no tablet, Chromebook, etc.), que tenga permisos de administradora habilitados. Deben tener algunos paquetes de software específicos instalados (listados <a href="#setup">aquí</a>). 
+  <strong>Requerimientos:</strong> Las asistentes deben tener acceso a una computadora con sistema operativo Mac, Linux o Windows (no tablets, Chromebooks, etc.), que tenga permisos de administrador habilitados. Deberán tener algunos paquetes de software instalados, los cuales están listados <a href="#setup">aquí</a>. 
 	
-También es requerido que respeten el 
+Las personas registradas en este taller deberán respetar el <a href="{{site.swc_site}}/conduct.html">Código de Conducta</a> de 
   {% if page.carpentry == "swc" %}
-  Software Carpentry's
+  Software Carpentry
   {% elsif page.carpentry == "dc" %}
   Data Carpentry's
   {% elsif page.carpentry == "lc" %}
   Library Carpentry's
-  {% endif %}
-  <a href="{{site.swc_site}}/conduct.html">Código de Conducta</a>. 
+  {% endif %}. 
 </p>
 
 
@@ -177,7 +178,8 @@ También es requerido que respeten el
 {% comment %} NO EDITAR LOS ENLACES A LAS ENCUESTAS {% endcomment %}
 <p><em>Encuestas</em></p>
 {% if page.carpentry == "swc" %}
-<p>Por favor, asegúrese de completar estas encuestas antes y después del taller.</p>
+<p>Por favor, asegúrate de completar estas encuestas antes y después del taller. De esta manera nos ayudarás a 
+	mejorar o mantener un estándar de enseñanza alto.</p>
 <p><a href="{{ site.swc_pre_survey }}{{ site.github.project_title }}">Encuesta pre-taller</a></p>
 <p><a href="{{ site.swc_post_survey }}{{ site.github.project_title }}">Encuesta post-taller</a></p>
 
