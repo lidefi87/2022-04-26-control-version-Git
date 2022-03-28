@@ -460,7 +460,7 @@ Las personas registradas en este taller deberán respetar el <a href="{{site.swc
 	Nano es un editor básico y el predeterminado que usan los instructores en el taller.
         Mira este <a href="https://www.youtube.com/watch?v=9LQhwETCdwY ">vídeo tutorial</a>
        	sobre la instalación de Git y Nano.
-	Recuerda que el edito de texto debe estar preinstalado en tu computador antes de iniciar el taller. 
+	Recuerda que el editor de texto deberá estar instalado en tu computador antes de iniciar el taller. 
 	</p>
       <p>
 	Otros editores que puedes usar son
