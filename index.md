@@ -6,7 +6,7 @@ address: null      # dirección completa del espacio donde se realizará el tall
 country: "Ecuador"      # código ISO del país, dos letras en minúscula como por ejemplo "fr" (ver https://en.wikipedia.org/wiki/ISO_3166-1)
 language: "Español"     # código ISO del idioma, dos letras en minúscula como por ejemplo "fr" (ver https://en.wikipedia.org/wiki/ISO_639-1)
 latlng: null       # latitud y longitud del espacio en formato decimal (por ejemplo, "41.7901128,-87.6007318" - usar http://www.latlong.net/)
-humandate: "abril 27, 2022"    # fechas del taller en formato legible (por ejemplo, "Feb 17-18, 2020")
+humandate: "Abril 27, 2022"    # fechas del taller en formato legible (por ejemplo, "Feb 17-18, 2020")
 humantime: "6:00 pm - 8:30 pm"    # hora del taller en formato legible (por ejemplo, "9:00 am - 4:30 pm")
 startdate: 2022-04-27      # fecha de inicio del taller en formato YYYY-MM-DD (por ejemplo, 2015-01-01)
 enddate: 2022-04-27        # fecha de finalización del taller en formato YYYY-MM-DD, por ejemplo 2015-01-02
@@ -130,7 +130,7 @@ También es requerido que respeten el
   <strong>Accesibilidad:</strong> Estamos comprometidas a hacer que este taller sea accesible para todas.
 </p>
 <p>
-  Los materiales se entregarán antes del taller, también se encuentra disponible material impreso si se pide a los organizadores con anticipación. Si podemos ayudar a facilitar el aprendizaje (por ejemplo, con intérpretes de lenguaje de señas, o instalaciones para lactancia) por favor contáctanos (utilizando los detalles de contacto listados debajo) e intentaremos proveerlos.
+  Los materiales se compartirán antes del taller a las personas registradas. El taller será en línea por lo que es necesario que participantes tengan acceso a una conexión estable al internet y una computadora propia. Si podemos ayudar a facilitar el aprendizaje, por ejemplo, poniendo a participantes en una misma ciudad en contacto para que organicen sesiones en grupo, contáctanos utilizando los detalles de contacto listados abajo.
 </p>
 
 {% comment %}
