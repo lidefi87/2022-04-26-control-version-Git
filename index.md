@@ -7,7 +7,7 @@ country: "Ecuador"      # código ISO del país, dos letras en minúscula como p
 language: "Español"     # código ISO del idioma, dos letras en minúscula como por ejemplo "fr" (ver https://en.wikipedia.org/wiki/ISO_639-1)
 latlng: null       # latitud y longitud del espacio en formato decimal (por ejemplo, "41.7901128,-87.6007318" - usar http://www.latlong.net/)
 humandate: "Abril 27, 2022"    # fechas del taller en formato legible (por ejemplo, "Feb 17-18, 2020")
-humantime: "6:00 pm - 9:00 pm"    # hora del taller en formato legible (por ejemplo, "9:00 am - 4:30 pm")
+humantime: "5:00 pm - 9:00 pm"    # hora del taller en formato legible (por ejemplo, "9:00 am - 4:30 pm")
 startdate: 2022-04-27      # fecha de inicio del taller en formato YYYY-MM-DD (por ejemplo, 2015-01-01)
 enddate: 2022-04-27        # fecha de finalización del taller en formato YYYY-MM-DD, por ejemplo 2015-01-02
 instructor: ["Denisse Fierro Arcos", "Linda Cabrera Orellana"] # lista de nombres de las instructoras separados por comas y entre corchetes, como ["Hedy Lamarr", "Ada Lovelace", "Madame Curie"]
@@ -430,19 +430,7 @@ Las personas registradas en este taller deberán respetar el <a href="{{site.swc
       <a href="https://www.youtube.com/watch?v=339AEqk9c-8">Video Tutorial</a>
       <p>
 	Nano es un editor básico y el predeterminado que usan los instructores en el taller.
-	Para instalarlo,
-	descarga el<a href="{{site.swc_installer}}">
-          {% if page.carpentry == "swc" %}
-          Software Carpentry
-          {% elsif page.carpentry == "dc" %}
-          Data Carpentry
-          {% elsif page.carpentry == "lc" %}
-          Libreria Carpentry
-          {% endif %}
-          Instalador de Windows
-	</a>
-	 y haz doble click en el archivo para iniciar la instalación.
-        <strong>Esta instalación requiere una conexión a Internet.</strong>
+	Nano se instalará automáticamente junto con la instalación de Git.
       </p>
       <p>
         Otros editores que puedes usar son
@@ -458,7 +446,7 @@ Las personas registradas en este taller deberán respetar el <a href="{{site.swc
       <h4 id="editor-macosx">macOS</h4>
       <p>
 	Nano es un editor básico y el predeterminado que usan los instructores en el taller.
-        Mira este <a href="https://www.youtube.com/watch?v=9LQhwETCdwY ">vídeo tutorial</a>
+        Mira este <a href="https://www.youtube.com/watch?v=9LQhwETCdwY ">video tutorial</a>
        	sobre la instalación de Git y Nano.
 	Recuerda que el editor de texto deberá estar instalado en tu computador antes de iniciar el taller. 
 	</p>
@@ -478,7 +466,7 @@ Las personas registradas en este taller deberán respetar el <a href="{{site.swc
         <a href="https://wiki.gnome.org/Apps/Gedit">Gedit</a>,
         <a href="http://kate-editor.org/">Kate</a> o
         <a href="http://www.sublimetext.com/">Sublime Text</a>.
-	Recuerda que el edito de texto debe estar preinstalado en tu computador antes de iniciar el taller. 
+	Recuerda que el editor de texto debe estar preinstalado en tu computador antes de iniciar el taller. 
       </p>
     </div>
   </div>
