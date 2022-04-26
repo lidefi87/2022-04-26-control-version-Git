@@ -7,7 +7,7 @@ country: "Ecuador"      # código ISO del país, dos letras en minúscula como p
 language: "Español"     # código ISO del idioma, dos letras en minúscula como por ejemplo "fr" (ver https://en.wikipedia.org/wiki/ISO_639-1)
 latlng: null       # latitud y longitud del espacio en formato decimal (por ejemplo, "41.7901128,-87.6007318" - usar http://www.latlong.net/)
 humandate: "Abril 27, 2022"    # fechas del taller en formato legible (por ejemplo, "Feb 17-18, 2020")
-humantime: "5:00 pm - 9:00 pm"    # hora del taller en formato legible (por ejemplo, "9:00 am - 4:30 pm")
+humantime: "5:00 pm - 8:00 pm"    # hora del taller en formato legible (por ejemplo, "9:00 am - 4:30 pm")
 startdate: 2022-04-27      # fecha de inicio del taller en formato YYYY-MM-DD (por ejemplo, 2015-01-01)
 enddate: 2022-04-27        # fecha de finalización del taller en formato YYYY-MM-DD, por ejemplo 2015-01-02
 instructor: ["Denisse Fierro Arcos", "Linda Cabrera Orellana"] # lista de nombres de las instructoras separados por comas y entre corchetes, como ["Hedy Lamarr", "Ada Lovelace", "Madame Curie"]
