@@ -78,7 +78,7 @@ eventbrite:           # optional: clave alfanumérica de registro en Eventbrite,
   Este bloque muestra la dirección y enlaces a mapas con instrucciones para llegar, si la latitud y longitud fueron definidas. Puedes utilizar http://itouchmap.com/latlong.html para encontrar la lat/long de una dirección. 
 {% endcomment %}
 {% if page.carpentry == "swc" %}
-  <strong>Dónde: </strong> Este taller será en línea a través de la plataforma xxxxx.
+  <strong>Dónde: </strong> Este taller será en línea a través de la plataforma Streamyard.
 {% endif %}
 
 {% comment %}
